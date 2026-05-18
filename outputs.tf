@@ -1,7 +1,7 @@
 output "instance_ami" {
-  value = aws_instance.Blog.ami
+  value = aws_instance.blog.ami
 }
 
 output "instance_arn" {
-  value = aws_instance.Blog.arn
+  value = aws_instance.blog.arn
 }
